@@ -1,6 +1,6 @@
 {% set name = "chainmap" %}
-{% set version = "1.0.2" %}
-{% set sha256 = "405da3bce9913bfb33e6e497803b447b60d12ab44031ca357626143e087e0526" %}
+{% set version = "1.0.3" %}
+{% set sha256 = "e42aaa4b3e2f66102a11bfd563069704bfbfd84fdcb517b564effd736bf53cd9" %}
 
 package:
   name: {{ name|lower }}
