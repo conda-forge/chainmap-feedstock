@@ -1,6 +1,6 @@
 {% set name = "chainmap" %}
-{% set version = "1.0.1" %}
-{% set sha256 = "c1cd76c679dd7af982ec5a45788ef4a0dfc20e77f27ccdeca289a5141862ff64" %}
+{% set version = "1.0.2" %}
+{% set sha256 = "405da3bce9913bfb33e6e497803b447b60d12ab44031ca357626143e087e0526" %}
 
 package:
   name: {{ name|lower }}
@@ -36,9 +36,7 @@ about:
   home: https://bitbucket.org/jeunice/chainmap/overview
   license: PSFL
   license_file: LICENSE.txt
-  summary: |
-    This module is a polyfill, implementing ChainMap for reasonably-recent 
-    versions of Python
+  summary: "Backport/clone of ChainMap for py26, py32, and pypy3"
   description: |
     This module is a polyfill, implementing ChainMap for reasonably-recent 
     versions of Python that do not have collections.ChainMap–namely, 
