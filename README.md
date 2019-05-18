@@ -7,9 +7,7 @@ Package license: PSFL
 
 Feedstock license: BSD 3-Clause
 
-Summary: This module is a polyfill, implementing ChainMap for reasonably-recent
-versions of Python
-
+Summary: Backport/clone of ChainMap for py26, py32, and pypy3
 
 This module is a polyfill, implementing ChainMap for reasonably-recent
 versions of Python that do not have collections.ChainMap–namely,
